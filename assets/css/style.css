@@ -1,0 +1,60 @@
+/* HEADER */
+
+.navbar{
+    background-color: #2c3e50;
+    height:80px;
+}
+
+.jumbo_tron{
+    height: 500px;
+    background-color: #1abc9c;
+}
+/* /HEADER */
+
+/* MAIN */
+/* Main_First_Pannel */
+.main_first_pannel{
+    height: 600px;
+}
+
+.test_1{
+    height: 50px;
+    background-color: red;
+}
+
+.test_2{
+    height:100px;
+    background-color: orange;
+    border: 1px solid black;
+}
+/* /Main_First_Pannel */
+
+/* Main_Second_Pannel */
+.main_second_pannel{
+    height: 400px;
+    background-color: #1abc9c;
+}
+/* /Main_Second_Pannel */
+
+/* Main_Third_Pannel */
+.main_third_pannel{
+    height: 580px;
+}
+/* /Main_Third_Pannel */
+/* /MAIN */
+
+
+/* FOOTER */
+/* footer_first_pannel */
+.footer_first_pannel{
+    height: 350px;
+    background-color: #3a546d;
+}
+/* footer_first_pannel */
+/* footer_copy */
+.footer_copy{
+    height: 80px;
+    background-color: #2c3e50;
+}
+/* /footer_copy */
+/* FOOTER */
