@@ -12,44 +12,26 @@
 .text_darkblue{
     color: #2c3e50;
 }
-.text-blue{
+.text_blue{
     color: #3a546d;
 }
 .text_white{
     color: white;
 }
-/* /Utility Classes */
 
-/* HEADER */
-.hero_img{
-   width: 250px;
+.py_50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.py_20{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.star::before{
-    content: "";
-    width: 100px;
-    height: 5px;
-    color: white;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 15px;
+.my_t20{
+    margin-top: 20px;
 }
-.star::after{
-    content: "";
-    width: 100px;
-    height: 5px;
-    color: white;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 15px;
-}
-/* /HEADER */
 
-/* MAIN */
-/* Main_First_Pannel */
-.main_first_pannel{
-    height: 600px;
-}
 
 .test_1{
     height: 50px;
@@ -57,17 +39,90 @@
 }
 
 .test_2{
-    height:100px;
     background-color: orange;
     border: 1px solid black;
+}
+/* /Utility Classes */
+
+/* HEADER */
+.hero_img{
+   width: 200px;
+   margin-bottom: 20px;
+}
+
+.star{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.star::before{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.star::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.middle_span::before{
+    content: "";
+    width: 10px;
+    height: 2px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    margin:auto 5px;
+}
+.middle_span::after{
+    content: "";
+    width: 10px;
+    height: 2px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    margin:auto 5px;
+}
+/* /HEADER */
+
+/* MAIN */
+/* Main_First_Pannel */
+.star.text_blue::before{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #2c3e50;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.star.text_blue::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #2c3e50;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.pics{
+    width: 300px;
+    border-radius: 10px;
 }
 /* /Main_First_Pannel */
 
 /* Main_Second_Pannel */
-.main_second_pannel{
-    height: 400px;
-    background-color: #1abc9c;
-}
+
 /* /Main_Second_Pannel */
 
 /* Main_Third_Pannel */
