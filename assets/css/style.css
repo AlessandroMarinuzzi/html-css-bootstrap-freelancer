@@ -32,6 +32,9 @@
     margin-top: 20px;
 }
 
+[class*=h1]{
+    font-weight: bold;
+}
 
 /* /Utility Classes */
 
@@ -105,12 +108,9 @@
     vertical-align: middle;
     margin-left: 15px;
 }
-[class*=h1]{
-    font-weight: bold;
-}
 
 .pics{
-    width: 350px;
+    width: 100%;
     border-radius: 10px;
 }
 /* /Main_First_Pannel */
@@ -150,6 +150,11 @@
 /* /footer_copy */
 /* FOOTER */
 
-@media screen and (max-width:991px) and (min-width:768px){
-    
+@media screen and (max-width:767px){
+    .about, .abput_form{
+        padding:0 10%;
+    }
+    .around{
+        margin:25px 0;
+    }
 }
