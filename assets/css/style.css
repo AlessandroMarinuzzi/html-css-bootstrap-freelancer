@@ -151,7 +151,7 @@
 /* FOOTER */
 
 @media screen and (max-width:767px){
-    .about, .abput_form{
+    .about, .about_form{
         padding:0 10%;
     }
     .around{
